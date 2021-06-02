@@ -1,0 +1,89 @@
+.nav-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 5;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  font-family: roboto;
+}
+
+.menu-bars {
+  display: none;
+}
+
+.logo-div {
+  width: 15%;
+}
+
+.logo-div span {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  float: left;
+}
+
+.logo-div a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 50%;
+}
+
+.menu a {
+  font-family: "Mukta", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(80, 80, 80);
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.mobile-search {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .nav-container {
+    height: 60px;
+    justify-content: space-around;
+  }
+  .menu {
+    display: none;
+  }
+  .menu-bars {
+    display: block;
+  }
+  form {
+    display: none;
+  }
+  .mobile-search {
+    display: block;
+  }
+  .menu-bars button,
+  .mobile-search button {
+    padding: 5px 7.5px;
+    border: none;
+    background-color: inherit;
+    color: rgb(133, 133, 133);
+    font-size: 20px;
+  }
+  .logo-div {
+    width: 40%;
+  }
+  .logo-div span {
+    float: none;
+    font-size: 30px;
+    letter-spacing: 0px;
+  }
+}

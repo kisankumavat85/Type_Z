@@ -1,0 +1,49 @@
+.logout-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 8px 0;
+  margin-bottom: 20px;
+  font-family: "Proza Libre", sans-serif;
+  font-weight: 300;
+}
+.welcome-p {
+  padding: 5px;
+  font-size: 25px;
+}
+.logout-span-div {
+  display: flex;
+  flex-direction: row;
+}
+.logout-span {
+  cursor: pointer;
+  margin-left: 30px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .logout-div {
+    padding: 10px 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .welcome-p {
+    font-size: 18px;
+  }
+  .logout-span-div {
+    justify-content: space-evenly;
+  }
+  .logout-span {
+    margin-left: 0px;
+    padding: 5px;
+  }
+}

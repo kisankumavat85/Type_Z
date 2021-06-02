@@ -1,0 +1,45 @@
+.mobile-menu-container {
+  padding: 5% 10% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+  font-family: "Mukta", sans-serif;
+  overflow: hidden;
+  position: fixed;
+
+  transition: 2s;
+}
+.menu-close {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.menu-close button {
+  color: rgb(114, 114, 114);
+  float: right;
+  padding: 3px 7px;
+  font-size: 25px;
+  background-color: white;
+  border: none;
+}
+
+.mobile-menu {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 100%;
+}
+
+.mobile-menu a {
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(59, 68, 78);
+  padding: 5px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,23 @@
+.saerch-mobile-form {
+  display: flex;
+  width: 250px;
+  height: 30px;
+}
+
+.saerch-mobile-form input {
+  font-family: "Exo 2", sans-serif;
+  padding-left: 10px;
+  text-transform: uppercase;
+  width: 80%;
+  border: 2px solid black;
+}
+
+.saerch-mobile-form button {
+  width: 20%;
+  background-color: #000;
+  color: #ffffff;
+  border: none;
+}
+.saerch-mobile-form button a {
+  color: #ffffff;
+}

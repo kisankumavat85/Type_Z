@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+.dashboard-card {
+  padding: 5px 5px 5px 15px;
+  margin: 5px auto;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(216, 216, 216);
+  font-family: mukta;
+  width: 90%;
+}
+.dashboard-card:hover {
+  border: 2px solid rgb(121, 121, 121);
+}
+.dashboard-card .dash-title {
+  text-align: left;
+  width: 80%;
+  font-size: 18px;
+  display: inline-block;
+  min-height: 40px;
+}
+.dashboard-card .dash-delete-btn,
+.dashboard-card .dash-edit-btn {
+  font-size: 15px;
+  width: 100px;
+  margin-right: 10px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(133, 133, 133);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .dashboard-card .dash-title {
+    font-size: 15px;
+  }
+  .dashboard-card .dash-edit-btn,
+  .dashboard-card .dash-delete-btn {
+    font-size: 13px;
+    height: 30px;
+  }
+}

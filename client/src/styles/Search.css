@@ -1,0 +1,38 @@
+.saerch-form {
+  display: flex;
+  width: 250px;
+  height: 30px;
+}
+
+.saerch-form input {
+  font-family: "Mukta";
+  font-size: 14px;
+  padding-left: 10px;
+  width: 80%;
+  border: 2px solid black;
+}
+
+.saerch-form button {
+  width: 20%;
+  background-color: #000;
+  color: #ffffff;
+  border: none;
+}
+
+.saerch-form a {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1000px) {
+  .saerch-form {
+    display: none;
+  }
+
+  .saerch-form button {
+    padding: 5px 7.5px;
+    border: none;
+    background-color: inherit;
+    color: rgb(133, 133, 133);
+    font-size: 20px;
+  }
+}
